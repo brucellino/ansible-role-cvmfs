@@ -29,13 +29,13 @@ jobs:
       - lint
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 'lts/*'
+          node-version: 'lts/16'
       - name: add semantic release plugins
         run: |
           npm install -D '@semantic-release/changelog' \
