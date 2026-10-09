@@ -5,7 +5,7 @@ _.python.venv = { path = ".venv", create = true }
 python.uv_venv_auto = "create|source"        # activate existing .venv
 
 [tools]
-python = "3.14.8"
+python = "3.15.0"
 uv = "0.12.23"
 prek = "0.5.5"
 
