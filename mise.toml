@@ -4,4 +4,4 @@
 prek = "0.5.11"
 "pipx:ansible" = "15.0.0"
 "pipx:ansible-core" = "2.22.0"
-"pipx:ansible-lint" = "26.11.0"
+"pipx:ansible-lint" = "26.11.1"
